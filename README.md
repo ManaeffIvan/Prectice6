@@ -39,6 +39,10 @@
 
 | Строка  | Результат |
 | --------------- | ---------------- |
-|  | 3 2 1 4 |
-| 4 | 3 2 1 4 |
-| 8 | 3 2 1 4 4 3 2 1 |
+| 1.6 | a floating-point number |
+| 1.-6 | not a floating-point number |
+| 1e6 | a floating-point number |
+| 1e-6 | a floating-point number |
+| -1e+6 | a floating-point number |
+| 2-1e6 | not a floating-point number |
+| 2ee6 | not a floating-point number |
